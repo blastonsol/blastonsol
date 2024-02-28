@@ -26,7 +26,7 @@ function App() {
               <h1 className="heading">FEBRUARY 29</h1>
               <button className="button">BUY {ticker}</button>
             <div className="socialBlock">
-              <a href="https://google.com/" rel="noopener noreferrer" target="_blank"><img alt="TG" className="social" src={TG} /></a>
+              <a href="https://t.me/BlastSol" rel="noopener noreferrer" target="_blank"><img alt="TG" className="social" src={TG} /></a>
               <a href="https://twitter.com/Blast_L2" rel="noopener noreferrer" target="_blank"><img alt="TW" className="social" src={TW} /></a>
             </div>
             </div>
@@ -84,7 +84,7 @@ function App() {
             <h4 className="smallHeading">ENTER THE COMMUNITY</h4>
             <button className="button">JOIN GROUP</button>
             <div className="socialBlock2">
-                <a href="https://google.com/" rel="noopener noreferrer" target="_blank"><img alt="TG" className="social" src={TG} /></a>
+                <a href="https://t.me/BlastSol" rel="noopener noreferrer" target="_blank"><img alt="TG" className="social" src={TG} /></a>
                 <a href="https://twitter.com/Blast_L2" rel="noopener noreferrer" target="_blank"><img alt="TW" className="social" src={TW} /></a>
             </div>
             <p className="reserved">All right reserved BLAST 2024.</p>
