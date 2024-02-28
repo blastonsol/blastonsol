@@ -1,0 +1,156 @@
+html {
+  background-color: #000;
+}
+
+.section1 {
+  background-image: url('./assets/bg.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logoBlock {
+  padding-top: 100px;
+  text-align: center;
+}
+.headingBlock {
+  text-align: center;
+  margin-top: 100px;
+}
+.yellowHeading{
+  color: #F0EE00;
+  font-size: 58px;
+  font-family: "Orbitron", sans-serif;
+}
+.heading{
+  color: #D4D3AA;
+  font-size: 85px;
+  line-height: 40px;
+  margin-top: -20px;
+  font-family: "Orbitron", sans-serif;
+}
+.button {
+  padding:10px 20px;
+  margin-top:-10px;
+  background-color: #F0EE00;
+  border:0;
+  font-size:36px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+}
+.socialBlock {
+  margin-top: 50px;
+  padding-bottom: 135px;
+}
+
+.section2 {
+  
+}
+
+.items {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px 80px;
+}
+.item {
+  margin: 20px 30px;
+}
+
+.numberCircle{
+  width: 50px;
+  height: 50px;
+  color: #F0EE00;
+  border-radius: 50px;
+  border: 1px solid #D4D3AA;
+  text-align:center;
+  margin: 0 auto;
+}
+.number{
+  font-size:20px;
+  font-family: "Orbitron", sans-serif;
+  line-height: 10px;
+  font-weight: 800;
+}
+.description {
+  text-align: center;
+  color: #D4D3AA;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+.heading2{
+  font-family: "Orbitron", sans-serif;
+  color: #F1F091;
+  font-size: 36px;
+  font-weight: 800;
+}
+.description2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  color: #D4D3AA;
+  max-width: 1200px;
+}
+.divider2 {
+  margin-top: 50px;
+}
+.Img1 {
+  margin-right: 95px;
+}
+.Img3 {
+  margin-left: 95px;
+}
+.airdropImgBlock{
+  margin: 0 auto;
+}
+.section3 {
+  background-image:url("./assets/bg2.png");
+  background-size: fit;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.section3 p {
+  padding: 300px 0px;
+}
+.section4 {
+  text-align: center;
+  color:#fff;
+}
+.smallHeading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  color: #D4D3AA;
+}
+.socialBlock2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.big {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.reserved {
+  font-size: 16px;
+  color: #424835;
+}
+
+@media only screen and (max-width: 1440px) {
+  .layout {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .headingBlock{
+    margin-top: 200px;
+  }
+  .socialBlock {
+    margin-top: 100px;
+    padding-bottom: 235px;
+  }
+  .layout {
+    margin: 0px 120px;
+  }
+  .items {
+    max-width: 1200px;
+  }
+}
